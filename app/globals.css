@@ -1,0 +1,17 @@
+*{box-sizing:border-box}
+html,body{margin:0;padding:0}
+:root{--card:#111827;--muted:#9ca3af;--accent:#22d3ee}
+.container{max-width:880px;margin:0 auto;padding:32px}
+.card{background:var(--card);border:1px solid #1f2937;border-radius:16px;padding:24px}
+.h1{font-size:28px;line-height:1.2;margin:0 0 12px}
+.h2{font-size:18px;line-height:1.4;margin:16px 0 8px;color:#e5e7eb}
+.p{color:var(--muted);margin:0 0 12px}
+.code{background:#0b1020;border:1px solid #15203b;color:#cbd5e1;padding:10px 12px;border-radius:8px;font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace}
+.badge{display:inline-block;background:#0e7490;color:white;border-radius:999px;padding:4px 10px;font-size:12px;border:1px solid #155e75}
+.btn{display:inline-flex;gap:8px;align-items:center;background:#0ea5e9;color:#001016;border:none;border-radius:10px;padding:10px 14px;font-weight:600;cursor:pointer}
+.btn:hover{background:#38bdf8}
+.link{color:#67e8f9;text-decoration:none}
+.link:hover{text-decoration:underline}
+.grid{display:grid;grid-template-columns:1fr;gap:16px}
+@media(min-width:900px){.grid{grid-template-columns:1.2fr .8fr}}
+.small{font-size:12px;color:#94a3b8}
